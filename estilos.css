@@ -22,25 +22,10 @@ navbar-light bg-light {
     vertical-align: -.125em;
     fill: currentColor;
   }
-
- /*  .footer{
-      background-color: #b4980c;
-  }
-  .py-3 my-4{
-    background-color: #b4980c;
-  }
-  #footer-color{
-      background-color: #b4980c;
-      color: #b4980c;
-  } */
-
-   /* .b-example-divider{
-      color: #b4980c;
-      background-color: #ffe97d;
-  }
-  #footer-color{
-      background-color: #ffe97d;
-  } */
+  .titulo{
+    text-align: center;
+}
+ 
   #footer-estilo{
     background-color: #ffe97d;  
   }

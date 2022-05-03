@@ -6640,10 +6640,13 @@ textarea.form-control-lg {
 
 .float-start {
   float: left !important;
+  margin: 10px 20px 20px 20px;
+
 }
 
 .float-end {
   float: right !important;
+  margin: 10px 20px 20px 20px;
 }
 
 .float-none {
@@ -7240,6 +7243,8 @@ textarea.form-control-lg {
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .my-0 {
