@@ -46,8 +46,7 @@
           }
         }
       }
-
-      div { margin: 10px 10px 10px 10px;
+div { margin: 10px 10px 10px 10px;
          .galeria-praga{ 
               background-color: rgb(249, 249, 156);
               .galeria {
@@ -64,7 +63,6 @@
                   }
               }
          }
-
       }
       $color-tarjeta:  rgb(217, 197, 170);
       $altura: 600px;
@@ -85,9 +83,9 @@
             }
           }
         }
-      }
-      .tarjeta2 { grid-area: tarjeta2; 
-        .card{
+}
+.tarjeta2 { grid-area: tarjeta2; 
+  .card{
             display: inline-block;
             justify-items: center;
           box-shadow: 0 4px 8px 0 $textoColor;
@@ -105,7 +103,7 @@
       }
       @mixin cambio-color ($color-tarjeta,$altura)
       {
-          .tarjeta1{
+.tarjeta1{
               @include cambio-color (white,555px )
           }
       }

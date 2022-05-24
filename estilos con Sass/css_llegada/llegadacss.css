@@ -111,4 +111,9 @@ div .galeria-praga .galeria .img-gal {
   border-radius: 5px 5px 0 0;
 }
 
+* {
+  font-family: "Zen Loop", cursive;
+  font-size: 1.3rem;
+}
+
 /*# sourceMappingURL=llegadacss.css.map */

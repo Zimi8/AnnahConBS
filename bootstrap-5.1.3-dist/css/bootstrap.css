@@ -367,7 +367,7 @@ select:disabled {
   display: none;
 }
 
-button,
+button, 
 [type=button],
 [type=reset],
 [type=submit] {
@@ -3009,13 +3009,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #c9b13a;
+  border-color: #dbaf02;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #95d849;
+  border-color: #a2da32;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -4034,6 +4034,8 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  padding-left:1rem;
+  
 }
 .navbar-nav {
   display: flex;
@@ -4500,6 +4502,7 @@ textarea.form-control-lg {
 .card > hr {
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: 10px;
 }
 .card > .list-group {
   border-top: inherit;
@@ -6058,6 +6061,7 @@ textarea.form-control-lg {
   border: 0;
   opacity: 0.5;
   transition: opacity 0.15s ease;
+  border-radius: 10px;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
@@ -7320,6 +7324,7 @@ textarea.form-control-lg {
 
 .me-2 {
   margin-right: 0.5rem !important;
+  
 }
 
 .me-3 {
@@ -7656,6 +7661,8 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
 }
 
 .text-decoration-none {
@@ -9661,6 +9668,7 @@ textarea.form-control-lg {
 
   .mb-lg-0 {
     margin-bottom: 0 !important;
+    margin-left: 590px !important;
   }
 
   .mb-lg-1 {
